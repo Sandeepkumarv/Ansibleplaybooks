@@ -1,0 +1,10 @@
+[local]
+local ansible_host=52.91.211.69 ansible_connection=local
+
+[awshosts]
+mnode1 ansible_host=54.226.234.26 
+mnode2 ansible_host=54.227.54.59 
+mnode3 ansible_host=54.227.74.0 
+
+[extrahost]
+mnode4 ansible_host=54.173.92.153
